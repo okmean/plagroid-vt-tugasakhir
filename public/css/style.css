@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+*{
+    font-family: 'Source Serif Pro', serif;
+}
+
+html, body { width: 100%; height: 100%; margin: 0; padding: 0; padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); }
+
+#viewer { background-color: #FFFFFF; z-index:1; position:absolute; width: 100%; height: 100%; top: 0; }
+#preloadContainer { z-index:2; position:relative; width:100%; height:100%; transition: opacity 0.5s; -webkit-transition: opacity 0.5s; -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s;}
+#navbar {
+    position: relative;
+    z-index:10;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: block;
+}
+.loading {
+    position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transform: -webkit-translate(-50%, -50%);
+        transform: -moz-translate(-50%, -50%);
+        transform: -ms-translate(-50%, -50%);
+}
+
+.navbar-expand-lg .navbar-nav {
+    margin-left: auto;
+}
+
+.scalee {
+    transform: scale(0.9);
+    opacity: 0;
+    transition: all .2s linear;
+    display: block !important;
+}
+
+.scalee.show {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.navbar-toggler {
+    color: white;
+    border: 0px;
+}
+
+.explore {
+    text-transform: capitalize;
+}
+
+#product-description{
+    text-align: justify;
+}
+
+#product-name{
+    font-weight: bold;
+}
+
+#productList .p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.paginate{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3px;
+      
+}
+
+
+.modal-tagline{
+    font-size: medium;
+}
+
+.btn-right-corner{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    top: 5;
+    z-index: 10;
+
+}
+
+.map{
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.fullscreen{
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+button.btn.circle{
+    width: 50px;
+    height: 50px;
+    padding: 6px 0px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    background-color: rgba(0, 0, 0, 0.5);
+}
