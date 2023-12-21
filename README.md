@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://www.u-inv.my.id/wp-content/uploads/2023/12/Modal-product.jpg" alt="Plagro.id VT"></a></p>
+<p align="center"><a href="https://github.com/okmean/plagroidvt/" target="_blank"><img src="https://www.u-inv.my.id/wp-content/uploads/2023/12/Modal-product.jpg" alt="Plagro.id VT"></a></p>
 
 ## About This Project
 - Aplikasi virtual tour agrowisata Desa Pelaga pada komunitas tani plagro.id dan harga komoditas dinamis 
